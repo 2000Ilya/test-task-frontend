@@ -1,0 +1,18 @@
+.logo {
+    display: inline-block;
+}
+
+.logo-image {
+    vertical-align: middle;
+}
+
+.logo-name {
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Rubik';
+    color: #333333;
+    vertical-align: middle;
+    padding-left: 11px;
+    letter-spacing: 0.45px;
+}

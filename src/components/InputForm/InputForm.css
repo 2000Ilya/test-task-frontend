@@ -1,0 +1,21 @@
+.input-form {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #333333;
+    width: 318px;
+    height: 26px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    padding-left: 0;
+    letter-spacing: 0.35px;
+    font-weight: bold;
+}
+
+.input-form::placeholder {
+    color: #828282;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}

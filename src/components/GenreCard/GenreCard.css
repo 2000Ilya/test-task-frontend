@@ -1,0 +1,38 @@
+.genre-card {
+    text-decoration: none;
+    width: 280px;
+    height: 208px;
+    background: linear-gradient(136.27deg, #F2C94C 8.44%, #F29A4A 91.36%);
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    position: relative;
+}
+
+.genre-card:hover {
+    opacity: unset;
+}
+
+.genre-card-emoji {
+    font-family: 'Rubik';
+    font-size: 48px;
+    line-height: 57px;
+    position: absolute;
+    margin: 0;
+    top: 78px;
+    left: 116px;
+}
+
+.genre-card-name {
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0;
+    bottom: 24px;
+    left: 97px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}

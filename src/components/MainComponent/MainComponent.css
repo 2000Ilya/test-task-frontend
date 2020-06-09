@@ -1,0 +1,14 @@
+@import "../../components/Logo/Logo.css";
+@import "../../components/InputForm/InputForm.css";
+@import "../../components/SearchForm/SearchForm.css";
+@import "../../components/Button/Button.css";
+@import "../../components/GenreCard/GenreCard.css";
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../../fonts/Rubik-Regular.ttf');
+}
+
+body {
+    cursor:  url('../../images/cursor-hand.svg');
+}

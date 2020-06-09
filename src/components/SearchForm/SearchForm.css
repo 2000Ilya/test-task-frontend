@@ -1,0 +1,23 @@
+.search-form {
+    display: inline-block;
+    width: 402px;
+    position: relative;
+}
+
+.search-form-button {
+    font-family: 'Rubik';
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #E5261E;
+    font-weight: bold;
+    float: right;
+    letter-spacing: 0.2px;
+    bottom: 6px;
+    right: 1px;
+    position: absolute;
+}
+
+.search-form-input {
+    vertical-align: middle;
+}

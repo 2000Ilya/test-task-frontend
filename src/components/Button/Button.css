@@ -1,0 +1,16 @@
+.button {
+    background-color: #E5261E;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    padding: 9.5px 32.3px;
+    letter-spacing: 0.2px;
+}
+
+.button:hover {
+background-color: #CC221B;
+}
