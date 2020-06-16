@@ -11,6 +11,7 @@ import FilmCard from "../../components/FilmCard/FilmCard.jsx";
 import LogInForm from "../../components/LogInForm/LogInForm.jsx";
 import TabFilms from "../../components/TabFilms/TabFilms.jsx";
 import Channel from "../../components/Channel/Channel.jsx";
+import Checkbox from "../../components/Checkbox/Checkbox.jsx";
 
 class MainComponent extends Component {
     render() {
@@ -27,6 +28,10 @@ class MainComponent extends Component {
                 <br></br>
                 <br></br>
                 <Button />
+                <br></br>
+                <br></br>
+                <br></br>
+                <Checkbox />
                 <br></br>
                 <br></br>
                 <br></br>
@@ -91,6 +96,14 @@ class MainComponent extends Component {
                 <br></br>
                 <br></br>
                 <Channel position={{"padding": "48px 168px"}} channel_logo_url="/images/channel-logo/amedia.svg" channel_name="AMEDIA PREMIUM" telecast={["Клиент всегда мёртв", "Голодные игры: Сойка-пересмешница. Часть I", "Секс в большом городе"]} />
+                <br></br>
+                <br></br>
+                <br></br>
+                <Channel position={{"padding": "57px 95px", "width": "210px", "height": "48px"}} channel_logo_url="/images/channel-logo/tv1000.svg" channel_name="TV1000" telecast={["Однажды в Америке", "Предчувствие", "Остров проклятых"]} />
+                <br></br>
+                <br></br>
+                <br></br>
+                <Channel position={{"padding": "43px 163px", "width": "75px", "height": "75px"}} channel_logo_url="/images/channel-logo/mir.svg" channel_name="МИР" telecast={["Маршалы победы", "Новости", "Крепкий орешек"]} />
             </div>
         );
     }

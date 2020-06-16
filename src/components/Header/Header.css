@@ -7,13 +7,13 @@
 
 .header-logo {
     position: absolute;
-    left: -8px;
+    left: 0;
     bottom: 9px;
 }
 
 .header-search-form {
     position: absolute;
-    right: 397px;
+    right: 405px;
     bottom: 9px;
 }
 
@@ -21,7 +21,7 @@
     float: right;
     position: absolute;
     bottom: 15px;
-    right: 8px;
+    right: 0;
 }
 
 .header-logo,
