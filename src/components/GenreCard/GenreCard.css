@@ -2,7 +2,7 @@
     text-decoration: none;
     width: 280px;
     height: 208px;
-    background: linear-gradient(136.27deg, #F2C94C 8.44%, #F29A4A 91.36%);
+/* background: linear-gradient(136.27deg, #F2C94C 8.44%, #F29A4A 91.36%); */
     opacity: 0.8;
     box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
@@ -27,12 +27,14 @@
     font-family: 'Rubik';
     font-size: 20px;
     font-weight: normal;
+    text-transform: capitalize;
     line-height: 24px;
     color: #FFFFFF;
-    position: absolute;
     margin: 0;
-    bottom: 24px;
-    left: 97px;
+    text-align: center;
+    padding-top: 160px;
+    margin-left: -2px;
+    display: block;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
 }

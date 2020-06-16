@@ -1,0 +1,55 @@
+.channel {
+    width: 1180px;
+    height: 162px;
+    background: #f2f2f2;
+    border-radius: 8px;
+    position: relative;
+}
+
+.channel-logo-container {
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+}
+
+.channel-logo {
+    margin: auto;
+}
+
+.channel-name {
+    display: inline-block;
+    margin: 0;
+    top: 21px;
+    position: absolute;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.48px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.channel-schedule {
+    position: absolute;
+    display: inline-block;
+    font-family: "Rubik";
+    top: 51px;
+    margin-left: -11px;
+    border-spacing: 10px;
+}
+
+.channel-schedule-first-item-telecast,
+.channel-schedule-second-item-telecast,
+.channel-schedule-third-item-telecast {
+    padding-left: 9px;
+}
+
+.channel-schedule-first-item {
+    color: #E5261E;
+}
+
+.channel-schedule-second-item,
+.channel-schedule-third-item {
+    color: #333333;
+}

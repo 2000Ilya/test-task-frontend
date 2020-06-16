@@ -1,0 +1,31 @@
+.header {
+    width: 1180px;
+    height: 40px;
+    position: relative;
+    margin: auto;
+}
+
+.header-logo {
+    position: absolute;
+    left: -8px;
+    bottom: 9px;
+}
+
+.header-search-form {
+    position: absolute;
+    right: 397px;
+    bottom: 9px;
+}
+
+.header-button {
+    float: right;
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+}
+
+.header-logo,
+.header-search-form,
+.header-button {
+    display: inline-block;
+}

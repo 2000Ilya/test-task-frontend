@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { ReactComponent as YourSvg } from '../../images/sign.svg';
 
 class Logo extends Component {
   render() {
     return (
       <div className="logo">
-        <YourSvg className="logo-image" />
+        <img className="logo-image" src="/images/icons/sign.svg" alt="header-logo" />
         <h2 className="logo-name">Видеосервис</h2>
       </div>
     );

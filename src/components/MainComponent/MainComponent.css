@@ -3,6 +3,12 @@
 @import "../../components/SearchForm/SearchForm.css";
 @import "../../components/Button/Button.css";
 @import "../../components/GenreCard/GenreCard.css";
+@import "../../components/Header/Header.css";
+@import "../../components/Footer/Footer.css";
+@import "../../components/FilmCard/FilmCard.css";
+@import "../../components/LogInForm/LogInForm.css";
+@import "../../components/TabFilms/TabFilms.css";
+@import "../../components/Channel/Channel.css";
 
 @font-face {
     font-family: 'Rubik';
@@ -10,5 +16,4 @@
 }
 
 body {
-    cursor:  url('../../images/cursor-hand.svg');
 }
