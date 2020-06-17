@@ -1,0 +1,26 @@
+.channels-list-container {
+    width: 1194px;
+    height: 696px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 16px;
+    margin: auto;
+    padding-left: 14px; 
+}
+
+.channels-list-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.channels-list-container::-webkit-scrollbar-track {
+    background: #F2F2F2;
+    border-radius: 2px;
+    padding-left: 14px; 
+}
+
+/* Handle */
+.channels-list-container::-webkit-scrollbar-thumb {
+    background: #BDBDBD;
+    border-radius: 2px;
+}

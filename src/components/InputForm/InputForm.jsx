@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class InputForm extends Component {
   render() {
-    return (
-      <input className="input-form" placeholder="Поиск...">
-
-      </input>
-    );
+    return <input className="input-form" placeholder="Поиск..."></input>;
   }
 }
 

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import InputForm from '../../components/InputForm/InputForm.jsx';
+import React, { Component } from "react";
+import InputForm from "../../components/InputForm/InputForm.jsx";
 import Button from "../../components/Button/Button.jsx";
 
 class LogInForm extends Component {
@@ -14,4 +14,4 @@ class LogInForm extends Component {
   }
 }
 
-export default LogInForm; 
+export default LogInForm;

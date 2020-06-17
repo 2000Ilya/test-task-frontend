@@ -12,9 +12,9 @@
     color: #E5261E;
     font-weight: bold;
     float: right;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
     bottom: 6px;
-    right: 1px;
+    right: 0;
     position: absolute;
 }
 

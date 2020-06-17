@@ -1,0 +1,25 @@
+.tab-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 311px;
+}
+
+.tab-button {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #333333;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.94px;
+}
+
+.tab-button:hover {
+    color: #E5261E;
+}
+
+.tab-button.films {
+    padding-right: 24px;
+}

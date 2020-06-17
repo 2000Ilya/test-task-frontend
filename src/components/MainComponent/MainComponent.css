@@ -9,6 +9,9 @@
 @import "../../components/LogInForm/LogInForm.css";
 @import "../../components/TabFilms/TabFilms.css";
 @import "../../components/Channel/Channel.css";
+@import "../../components/ChannelsList/ChannelsList.css";
+@import "../../components/TabButtons/TabButtons.css";
+@import "../../components/TabTVChannels/TabTVChannels.css";
 
 @font-face {
     font-family: 'Rubik';

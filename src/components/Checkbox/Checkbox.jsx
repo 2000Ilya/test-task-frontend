@@ -4,7 +4,7 @@ class Checkbox extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      remember: false
+      remember: false,
     };
 
     this.handleInputChange = this.handleInputChange.bind(this);
