@@ -1,0 +1,37 @@
+.tab-films-header {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+    width: 1180px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    width: fit-content;
+    margin: auto;
+}
+
+.tab-films-genre-cards-item,
+.tab-films-film-cards-item {
+    display: inline-block;
+}
+
+.tab-films-genre-cards.tab-films-header {
+    margin-top: 32px;
+    letter-spacing: 1px;
+}
+
+.tab-films-film-cards.tab-films-header {
+    letter-spacing: 0.4px;
+}
+
+.tab-films {
+    margin-top: 32px;
+}

@@ -24,13 +24,13 @@ class Checkbox extends Component {
     return (
       <form>
         <label>
-          запомнить
           <input
             name="remember"
             type="checkbox"
             checked={this.state.remember}
             onChange={this.handleInputChange}
           />
+          запомнить
         </label>
       </form>
     );

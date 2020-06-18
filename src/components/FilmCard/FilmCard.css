@@ -32,6 +32,7 @@
 
 .film-card-movie-container:hover .film-card-movie-overlay {
     opacity: 0.8;
+    cursor: default;
 }
 
 .film-card-movie-overlay-text {

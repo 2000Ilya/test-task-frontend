@@ -1,16 +1,21 @@
+.genre-card-container {
+    width: 280px;
+    height: 208px;
+    position: relative;
+}
+
 .genre-card {
     text-decoration: none;
     width: 280px;
     height: 208px;
-/* background: linear-gradient(136.27deg, #F2C94C 8.44%, #F29A4A 91.36%); */
     opacity: 0.8;
     box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
     position: relative;
 }
 
-.genre-card:hover {
-    opacity: unset;
+.genre-card-container:hover {
+    opacity: 1;
 }
 
 .genre-card-emoji {
