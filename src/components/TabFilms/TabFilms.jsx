@@ -10,28 +10,28 @@ class TabFilms extends Component {
         <div className="tab-films-film-cards grid-container">
           <div className="tab-films-film-cards-item first">
             <FilmCard
-              film_url="/images/movie-card/cat.png"
+              film_url="images/movie-card/cat.png"
               film_caption="Мульт в кино. Выпуск №103. Некогда грустить!"
               description="В новом выпуске ми-ми-мишки изобретут машину сна, а Дракоша Тоша научит завязывать шнурки. Также зрители увидят новые серии мультфильмов «Четверо в кубе», «Лео и Тиг» и совершенно новый мультсериал «Снежная королева: Хранители чудес»."
             />
           </div>
           <div className="tab-films-film-cards-item second">
             <FilmCard
-              film_url="/images/movie-card/batman.png"
+              film_url="images/movie-card/batman.png"
               film_caption="Новый Бэтмен"
               description="В детстве юный наследник огромного состояния Брюс Уэйн оказался свидетелем убийства своих родителей, и тогда он решил бороться с преступностью. Спустя годы он отправляется в путешествие по миру, чтобы найти способ восстановить справедливость. Обучение у мудрого наставника боевым искусствам дает ему силу и смелость. Вернувшись в родной город, Уэйн становится Бэтменом и ведет борьбу со злом."
             />
           </div>
           <div className="tab-films-film-cards-item third">
             <FilmCard
-              film_url="/images/movie-card/hollywood.png"
+              film_url="images/movie-card/hollywood.png"
               film_caption="Однажды... в Голливуде"
               description="Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии."
             />
           </div>
           <div className="tab-films-film-cards-item fourth">
             <FilmCard
-              film_url="/images/movie-card/girl.png"
+              film_url="images/movie-card/girl.png"
               film_caption="Стриптизёрши"
               description="Танцовщицы элитного стриптиз-клуба, клиенты которого — известные финансисты с Уолл-Стрит — привыкли к большим заработкам и роскошной жизни. Но после финансового кризиса 2008 года посетителей в клубе заметно поубавилось, и деньги к девушкам уже не текут рекой. Тяжёлые времена требуют отчаянных мер, и бывшие танцовщицы решаются на авантюрный шаг."
             />

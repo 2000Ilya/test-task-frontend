@@ -6,7 +6,7 @@ class Logo extends Component {
       <div className="logo">
         <img
           className="logo-image"
-          src="/images/icons/sign.svg"
+          src="images/icons/sign.svg"
           alt="header-logo"
         />
         <h2 className="logo-name">Видеосервис</h2>

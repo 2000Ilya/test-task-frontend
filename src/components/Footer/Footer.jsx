@@ -7,7 +7,7 @@ class Footer extends Component {
         <div className="footer-container">
           <img
             className="footer-logo"
-            src="/images/icons/htc-cs-logo.svg"
+            src="images/icons/htc-cs-logo.svg"
             alt="footer-logo"
           />
           <div className="footer-contacts">
