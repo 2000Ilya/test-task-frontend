@@ -11,7 +11,7 @@ class Header extends Component {
           <Logo />
         </div>
         <div className="header-search-form">
-          <SearchForm />
+          <SearchForm placeholders={this.props.placeholders} />
         </div>
         <div className="header-button">
           <Button />

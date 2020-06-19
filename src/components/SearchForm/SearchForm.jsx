@@ -5,7 +5,7 @@ class SearchForm extends Component {
   render() {
     return (
       <div className="search-form">
-        <InputForm className="search-form-input" />
+        <InputForm className="search-form-input" placeholders={this.props.placeholders[0]} />
         <a className="search-form-button" href="/#">
           Найти
         </a>

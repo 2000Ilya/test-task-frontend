@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import FilmsList from "../../components/FilmsList/FilmsList.jsx";
 import ChannelsList from "../../components/ChannelsList/ChannelsList.jsx";
+import LogInForm from "../LogInForm/LogInForm";
 
 class MainComponent extends Component {
   constructor(props) {
@@ -15,9 +16,9 @@ class MainComponent extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <div className="tab-tv-channels">
-          <Header />
+          <Header placeholders={["поиск..."]} />
           <div className="tab-tv-channels-tab-buttons">
             <div className="tab-buttons">
               <a
@@ -66,6 +67,9 @@ class MainComponent extends Component {
           <div className="tab-tv-channels-footer">
             <Footer />
           </div>
+        </div>
+        <div className="log-in-form-container">
+          <LogInForm placeholders={["логин", "пароль"]} />
         </div>
       </div>
     );
