@@ -14,7 +14,8 @@
     position: relative;
 }
 
-.genre-card:hover, .genre-card-container.genre-card-emoji:hover ~ .genre-card {
+.genre-card:hover,
+.genre-card-container.genre-card-container:hover>.genre-card {
     opacity: 1;
 }
 

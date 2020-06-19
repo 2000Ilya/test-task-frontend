@@ -1,4 +1,4 @@
-.tab-films-header {
+.films-list-header {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
@@ -18,20 +18,20 @@
     margin: auto;
 }
 
-.tab-films-genre-cards-item,
-.tab-films-film-cards-item {
+.films-list-genre-cards-item,
+.films-list-film-cards-item {
     display: inline-block;
 }
 
-.tab-films-genre-cards.tab-films-header {
+.films-list-genre-cards.films-list-header {
     margin-top: 32px;
     letter-spacing: 1px;
 }
 
-.tab-films-film-cards.tab-films-header {
+.films-list-film-cards.films-list-header {
     letter-spacing: 0.4px;
 }
 
-.tab-films {
+.films-list {
     margin-top: 32px;
 }

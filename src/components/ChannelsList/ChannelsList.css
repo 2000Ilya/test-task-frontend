@@ -6,7 +6,7 @@
     grid-template-columns: auto;
     grid-row-gap: 16px;
     margin: auto;
-    padding-left: 14px; 
+    padding-left: 14px;
     margin-top: 27px;
 }
 
@@ -17,7 +17,7 @@
 .channels-list-container::-webkit-scrollbar-track {
     background: #F2F2F2;
     border-radius: 2px;
-    padding-left: 14px; 
+    padding-left: 14px;
 }
 
 /* Handle */
