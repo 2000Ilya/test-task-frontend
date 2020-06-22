@@ -33,7 +33,7 @@ class MainComponent extends Component {
     return (
       <div className="container">
         <div className="tab-tv-channels">
-          <Header placeholders={["поиск..."]} logIn={this.showLogInForm} />
+          <Header placeholders={["Поиск..."]} logIn={this.showLogInForm} />
           <div className="tab-tv-channels-tab-buttons">
             <div className="tab-buttons">
               <button
@@ -42,7 +42,6 @@ class MainComponent extends Component {
                   this.state.screenFilmsIsShowing
                     ? {
                         color: "#E5261E",
-                        paddingBottom: "7px",
                         borderBottom: "2px solid #E5261E",
                       }
                     : {}
@@ -61,7 +60,6 @@ class MainComponent extends Component {
                   !this.state.screenFilmsIsShowing
                     ? {
                         color: "#E5261E",
-                        paddingBottom: "7px",
                         borderBottom: "2px solid #E5261E",
                       }
                     : {}
@@ -84,7 +82,7 @@ class MainComponent extends Component {
           </div>
         </div>
         {this.state.logInFormIsShowing ? <div className="main-log-in-form-container">
-          <LogInForm placeholders={["логин", "пароль"]} closeLogInForm={this.hideLogInForm} />
+          <LogInForm placeholders={["Логин", "Пароль"]} closeLogInForm={this.hideLogInForm} />
         </div> : null }
       </div>
     );

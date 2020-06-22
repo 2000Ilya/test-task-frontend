@@ -31,6 +31,7 @@ body {
 
 .tab-buttons {
     margin-top: 40px;
+    margin-bottom: -9px;
 }
 
 .tab-tv-channels-footer {
@@ -46,4 +47,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+}
+
+ .tab-button.films, .tab-button.tv-channels {
+    padding: 0 0 7px 0;
 }

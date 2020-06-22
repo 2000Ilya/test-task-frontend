@@ -10,7 +10,6 @@ class TabButtons extends Component {
             this.props.clicked
               ? {
                   color: "#E5261E",
-                  paddingBottom: "9px",
                   borderBottom: "3px solid #E5261E",
                 }
               : {}
@@ -24,7 +23,6 @@ class TabButtons extends Component {
             this.props.clicked
               ? {
                   color: "#E5261E",
-                  paddingBottom: "9px",
                   borderBottom: "3px solid #E5261E",
                 }
               : {}

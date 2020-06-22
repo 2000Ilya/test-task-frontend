@@ -16,6 +16,7 @@
     outline: none;
     background-color: inherit;
     border-width: 0;
+    padding: 0 0 9px 0;
 }
 
 .tab-button:hover {
