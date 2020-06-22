@@ -6,9 +6,9 @@ class SearchForm extends Component {
     return (
       <div className="search-form">
         <InputForm className="search-form-input" placeholders={this.props.placeholders[0]} />
-        <a className="search-form-button" href="/#">
+        <button className="search-form-button">
           Найти
-        </a>
+        </button>
       </div>
     );
   }

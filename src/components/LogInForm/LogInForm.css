@@ -1,4 +1,10 @@
 .log-in-form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.log-in-form-container {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 52px 49px 49px auto auto;
@@ -8,8 +14,14 @@
     overflow: hidden;
     margin: auto;
     border-radius: 8px;
-    box-shadow: 0 0 0 200vh rgba(51, 51, 51, 0.6);
     background: #ffffff;
+    position: relative;
+}
+.log-in-form-background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.6);
+    position: absolute;
 }
 
 .log-in-form-header {
@@ -26,5 +38,9 @@
 
 .log-in-form-button {
     margin: auto;
-    margin-bottom: 9px;
+    margin-bottom: 0;
+}
+
+.log-in-form-checkbox {
+    margin-top: 5px;
 }

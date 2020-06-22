@@ -13,9 +13,12 @@
     font-weight: bold;
     float: right;
     letter-spacing: 0.3px;
-    bottom: 6px;
-    right: 0;
+    bottom: 4px;
+    right: -5px;
     position: absolute;
+    border-width: 0;
+    outline: none;
+    background-color: inherit; 
 }
 
 .search-form-input {

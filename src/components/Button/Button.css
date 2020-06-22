@@ -12,6 +12,8 @@
     letter-spacing: 0.2px;
     width: min-content;
     height: min-content;
+    border-width: 0;
+    outline: none; 
 }
 
 .button:hover {

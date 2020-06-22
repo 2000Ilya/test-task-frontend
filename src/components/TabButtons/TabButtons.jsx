@@ -4,7 +4,7 @@ class TabButtons extends Component {
   render() {
     return (
       <div className="tab-buttons">
-        <a
+        <button
           className="tab-button films"
           style={
             this.props.clicked
@@ -15,11 +15,10 @@ class TabButtons extends Component {
                 }
               : {}
           }
-          href="/#"
         >
           Фильмы
-        </a>
-        <a
+        </button>
+        <button
           className="tab-button tv-channels"
           style={
             this.props.clicked
@@ -30,10 +29,9 @@ class TabButtons extends Component {
                 }
               : {}
           }
-          href="/#"
         >
           Телеканалы
-        </a>
+        </button>
       </div>
     );
   }

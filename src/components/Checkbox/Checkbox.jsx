@@ -14,10 +14,10 @@ class Checkbox extends Component {
     const target = event.target;
     const value = target.name === "remember" ? target.checked : target.value;
     const name = target.name;
-
     this.setState({
       [name]: value,
     });
+    console.log(this.state[name]);
   }
 
   render() {
@@ -29,8 +29,10 @@ class Checkbox extends Component {
             type="checkbox"
             checked={this.state.remember}
             onChange={this.handleInputChange}
+            className="checkbox-input"
           />
-          запомнить
+          <h4 className="checkbox-text">
+          запомнить</h4>
         </label>
       </form>
     );

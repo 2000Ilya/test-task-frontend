@@ -13,6 +13,9 @@
     color: #333333;
     text-decoration: none;
     letter-spacing: 0.8px;
+    outline: none;
+    background-color: inherit;
+    border-width: 0;
 }
 
 .tab-button:hover {

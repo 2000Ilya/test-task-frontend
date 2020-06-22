@@ -11,17 +11,32 @@ class MainComponent extends Component {
     super(props);
     this.state = {
       screenFilmsIsShowing: true,
+      logInFormIsShowing: false,
     };
+    this.showLogInForm = this.showLogInForm.bind(this);
+    this.hideLogInForm = this.hideLogInForm.bind(this);
+  }
+
+  showLogInForm() {
+    this.setState({
+      logInFormIsShowing: true,
+    });
+  }
+
+  hideLogInForm() {
+    this.setState({
+      logInFormIsShowing: false,
+    });
   }
 
   render() {
     return (
       <div className="container">
         <div className="tab-tv-channels">
-          <Header placeholders={["поиск..."]} />
+          <Header placeholders={["поиск..."]} logIn={this.showLogInForm} />
           <div className="tab-tv-channels-tab-buttons">
             <div className="tab-buttons">
-              <a
+              <button
                 className="tab-button films"
                 style={
                   this.state.screenFilmsIsShowing
@@ -39,8 +54,8 @@ class MainComponent extends Component {
                 }
               >
                 Фильмы
-              </a>
-              <a
+              </button>
+              <button
                 className="tab-button tv-channels"
                 style={
                   !this.state.screenFilmsIsShowing
@@ -58,7 +73,7 @@ class MainComponent extends Component {
                 }
               >
                 Телеканалы
-              </a>
+              </button>
             </div>
           </div>
           <div className="tab-item">
@@ -68,9 +83,9 @@ class MainComponent extends Component {
             <Footer />
           </div>
         </div>
-        <div className="log-in-form-container">
-          <LogInForm placeholders={["логин", "пароль"]} />
-        </div>
+        {this.state.logInFormIsShowing ? <div className="main-log-in-form-container">
+          <LogInForm placeholders={["логин", "пароль"]} closeLogInForm={this.hideLogInForm} />
+        </div> : null }
       </div>
     );
   }
